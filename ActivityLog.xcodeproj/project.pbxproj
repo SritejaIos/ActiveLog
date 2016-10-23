@@ -13,6 +13,7 @@
 		32A506AE1DBC98A10035709E /* ActivityLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32A506AC1DBC98A10035709E /* ActivityLog.xcdatamodeld */; };
 		32A506B01DBC98A10035709E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A506AF1DBC98A10035709E /* Assets.xcassets */; };
 		32A506B31DBC98A10035709E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A506B11DBC98A10035709E /* LaunchScreen.storyboard */; };
+		32A506BB1DBCA3B50035709E /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A506BA1DBCA3B50035709E /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		32A506AF1DBC98A10035709E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A506B21DBC98A10035709E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32A506B41DBC98A10035709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A506BA1DBCA3B50035709E /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskViewController.swift; path = ../TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		32A506A41DBC98A10035709E /* ActivityLog */ = {
 			isa = PBXGroup;
 			children = (
+				32A506BA1DBCA3B50035709E /* TaskViewController.swift */,
 				32A506A51DBC98A10035709E /* AppDelegate.swift */,
 				32A506A71DBC98A10035709E /* ViewController.swift */,
 				32A506A91DBC98A10035709E /* Main.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A506A81DBC98A10035709E /* ViewController.swift in Sources */,
+				32A506BB1DBCA3B50035709E /* TaskViewController.swift in Sources */,
 				32A506A61DBC98A10035709E /* AppDelegate.swift in Sources */,
 				32A506AE1DBC98A10035709E /* ActivityLog.xcdatamodeld in Sources */,
 			);
