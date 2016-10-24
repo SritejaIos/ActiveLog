@@ -42,7 +42,21 @@
             getData()
             tableView.reloadData()
         }
-        
+        func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            if editingStyle == .delete{
+                let task = tasks[indexPath.row]
+                context.delete(task)
+                (UIApplication.shared.delegate as! AppDelegate).saveContext()
+                do{
+                    tasks = try context.fetch(Task.fetchRequest())
+                }catch{
+                    print("fetching failure")
+                }
+                
+            }
+            tableView.reloadData()
+        }
         
       
         
