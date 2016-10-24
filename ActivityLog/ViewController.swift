@@ -17,6 +17,7 @@
             // Do any additional setup after loading the view, typically from a nib.
             tableView.delegate = self
             tableView.dataSource = self
+            tableView.rowHeight = 50
         }
         internal func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return tasks.count
